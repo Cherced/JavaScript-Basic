@@ -1,0 +1,25 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "entendiendo ecmascript",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "somting about learing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherced/JavaScript-Basic.git"
+  },
+  "keywords": [
+    "ecmascript6"
+  ],
+  "author": "cherced",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cherced/JavaScript-Basic/issues"
+  },
+  "homepage": "https://github.com/Cherced/JavaScript-Basic#readme"
+}
