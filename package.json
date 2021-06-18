@@ -7,7 +7,8 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "somting about learing"
+    "test": "somting about learing",
+      "callback": "node src/callback/indexCB.js"
   },
   "repository": {
     "type": "git",
