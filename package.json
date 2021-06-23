@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "somting about learing",
-      "callback": "node src/callback/indexCB.js"
+      "callback": "node ASINCRONISM/callback/indexCB.js"
   },
   "repository": {
     "type": "git",
