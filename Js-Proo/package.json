@@ -1,0 +1,16 @@
+{
+  "name": "js-proo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.34"
+  }
+}
