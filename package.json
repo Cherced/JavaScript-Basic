@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "somting about learing",
-      "callback": "node ASINCRONISM/callback/indexCB.js"
+    "callback": "node ASINCRONISM/callback/indexCB.js",
+    "callback:challenge": "node ASINCRONISM/callback/challenge.js",
+    "promise": "node ASINCRONISM/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Cherced/JavaScript-Basic/issues"
   },
-  "homepage": "https://github.com/Cherced/JavaScript-Basic#readme"
+  "homepage": "https://github.com/Cherced/JavaScript-Basic#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
