@@ -59,7 +59,7 @@ function is_my_number_prime(input) {
   // validamos que el numero no sea negativo 0, o 1, ya que estos por regla no son primos.
   if (Number.isInteger(input)) {
     if (input <= 1) {
-      console.log("El numero " + input + " No es primo");
+      return "El numero " + input + " No es primo";
     } else {
       counter = 0; // dividimos el input en 2 , y validamos que esta sea === 0 y cada que se haga match en la operacion se tiene un suamndo en el counter.
       //emepzamos en 2 por que anteriormente ya validamos negativos 0 y 1.
@@ -72,17 +72,21 @@ function is_my_number_prime(input) {
 
 
       if (counter < 1) {
-        console.log("El numero " + input + " Es primo");
+        return "El numero " + input + " Es primo";
       } else {
-        console.log("El numero " + input + " No es primo");
+        return "El numero " + input + " No es primo";
       }
     }
   } else {
-    console.log("El numero " + input + " No es primo");
+    return "El numero " + input + " No es primo";
   }
 }
 
-is_my_number_prime(5);
+function print(callback) {
+  return console.dir(callback);
+}
+
+print(is_my_number_prime(5));
 is_my_number_prime(6);
 is_my_number_prime(7);
 is_my_number_prime(53);
